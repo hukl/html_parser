@@ -24,3 +24,4 @@
   <<"center">>, <<"details">>, <<"dialog">>, <<"dir">>, <<"dl">>, <<"fieldset">>, <<"figcaption">>, <<"figure">>,
   <<"footer">>, <<"header">>, <<"hgroup">>, <<"listing">>, <<"main">>, <<"nav">>, <<"ol">>, <<"pre">>, <<"section">>,
   <<"summary">>, <<"ul">>]).
+

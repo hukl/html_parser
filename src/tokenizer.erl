@@ -4,7 +4,7 @@
 %% API
 -export([tokenize/1]).
 
--include("../include/html_parser.hrl").
+-include("include/html_parser.hrl").
 
 -spec tokenize(binary())               -> [term(),...].
 tokenize(Input)                        ->
@@ -180,3 +180,4 @@ is_singleton_tag(Tag) ->
 has_tag(Tag, List) ->
   {Tag1,_} = fetch_tag_name(Tag,<<>>),
   lists:any(fun(T) -> T =:= Tag1 end, List).
+
